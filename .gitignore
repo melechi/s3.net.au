@@ -1,0 +1,8 @@
+# Ignore all files and directories beginning with a .
+.*
+
+# Except this file
+!.gitignore
+
+# Ignore the log file
+errors.log

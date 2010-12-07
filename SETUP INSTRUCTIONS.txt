@@ -1,0 +1,10 @@
+.htaccess
+	Copy example.htaccess to .htaccess
+	Alter the line:
+	RewriteBase /s3.net.au
+	To be /<whatever your uri is>
+	
+Environment Config
+	Copy example._ss_environment.php.example up one level
+	rename it not to have the .example prefix
+	Configure it.
