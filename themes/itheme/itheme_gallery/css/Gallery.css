@@ -1,0 +1,47 @@
+#ImageGallery table {
+	margin:0;
+	text-align:center;
+}
+
+#ImageGallery table td {
+	border:none;
+	padding:2px;
+}
+
+#ImageGallery table td img {
+	border: 0;
+}
+
+#ImageGallery #NavigationBar {
+	font-size:12px;
+}
+
+#ImageGallery #NavigationBar a,
+#ImageGallery #NavigationBar .currentPage {
+	background:#FFFFFF none repeat scroll 0% 50%;
+	border:1px solid #DDDDDD;
+	padding:2px 6px;
+	text-decoration:none;
+}
+
+#ImageGallery #NavigationBar .currentPage {
+	color:#E31212;
+	font-weight:bold;
+}
+
+#ImageGallery #NavigationBar a:hover {
+	background:#EFECEC none repeat scroll 0%;
+	text-decoration:none;
+}
+
+#ImageGallery #NavigationBar #Previous,
+#ImageGallery #NavigationBar #PageNumbers,
+#ImageGallery #NavigationBar #Next {
+	float:left;
+	margin:10px 2px;
+	padding:10px 0;
+}
+
+#ImageGallery #NavigationBar .clear {
+	clear:both;
+}

@@ -1,0 +1,210 @@
+
+
+
+/****************************************************************
+  Docking Boxes core CSS: YOU MUST NOT CHANGE OR OVERRIDE THESE 
+*****************************************************************/
+.dbx-clone {
+	position:absolute;
+	visibility:hidden;
+	}
+.dbx-clone, .dbx-clone .dbx-handle-cursor {
+	cursor:move !important;
+	}
+.dbx-dummy {
+	display:block;
+	width:0;
+	height:0;
+	overflow:hidden;
+	}
+.dbx-group, .dbx-box, .dbx-handle {
+	position:relative;
+	display:block;
+	}
+
+
+
+/****************************************************************
+  avoid padding, margins or borders on dbx-box, 
+  to reduce visual discrepancies between it and the clone.  
+  overall, dbx-box is best left as visually unstyled as possible 
+*****************************************************************/
+.dbx-box {
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+
+
+/****************************************************************
+  otherwise, do what you like :) 
+*****************************************************************/
+
+
+
+
+/* group container(s) */
+#purple-outer {
+	border:1px solid #a382c0;
+	margin:0 10px 0 0;
+	float:left;
+	position:relative;/* additional outer containers must also have position:relative */
+	}
+.dbx-group {
+	clear:both;
+	}
+* html .dbx-group {
+	width:170px;
+	padding-bot\tom:0;
+	}
+
+
+
+
+
+
+
+	
+/* handles */
+.dbx-handle {
+	font:normal normal bold 1em tahoma,sans-serif;
+	position:relative;
+	margin:0;
+	padding:16px 0 6px 0;
+	background:url(../images/purple-handle.gif) no-repeat 0 0; 
+	color:#fff;
+	}
+* html .dbx-handle { 
+	width:150px; 
+	}
+
+	
+/* handle cursors are in a class of their own
+   so they only get applied if the script is supported */
+.dbx-handle-cursor {
+	cursor:move;
+	}
+	
+
+	
+	
+
+/* toggle images */
+	a.dbx-toggle, a.dbx-toggle:visited {
+	background:transparent url(../images/sidep-toggle.png) no-repeat scroll top left;
+	display:block;
+	height:20px;
+	overflow:hidden;
+	position:absolute;
+	right:3px;
+	text-decoration:none;
+	text-indent:-50px;
+	top:0;
+	width:20px;
+	}
+	a.dbx-toggle-open, a.dbx-toggle-open:visited {
+	/*background-position:0pt;*/
+	}
+	a.dbx-toggle-closed, a.dbx-toggle-closed:visited {
+	background-position:0pt -20px;
+	}
+	a.dbx-toggle-hilite-open, a.dbx-toggle-hilite-open:visited {
+	background-position:-20px 0pt;
+	}
+	a.dbx-toggle-hilite-closed, a.dbx-toggle-hilite-closed:visited {
+	background-position:-20px 0pt;
+	}
+	.dbx-tooltip {
+	background:#FFFFDD none repeat scroll 0%;
+	border:1px solid #000000;
+	color:#000000;
+	display:block;
+	font-family:tahoma,arial,sans-serif;
+	font-size:0.85em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	margin:36px 0pt 0pt 125px;
+	padding:2px 4px 3px 5px;
+	position:absolute;
+	text-align:left;
+	width:185px;
+	}
+	* html .dbx-tooltip {
+	width:210px;
+	}
+	*[class="dbx-tooltip"]:lang(en) {
+	background:infobackground none repeat scroll 0%;
+	border-color:infotext;
+	color:infotext;
+	font-family:small-caption;
+	font-weight:normal;
+	}
+
+
+
+
+
+
+
+/* inner content area */	
+.dbx-content {
+	background:transparent url(../images/sidep-bottom.png) no-repeat scroll 0pt 100%;
+	_background:transparent url(../images/sidep-bottom.gif) no-repeat scroll 0pt 100%; /*feed IE6 with a gif image */
+	margin:0pt;
+	overflow:hidden;
+	padding:5px 10px 9px;
+	}
+
+
+
+
+.dbx-content li {
+	}
+
+.dbx-content a, .dbx-content a:visited {
+	color:#000;
+	text-decoration:none;
+	}
+
+.dbx-content a:hover, .dbx-content a:focus, .dbx-content a:active {
+	color:#306;
+	text-decoration:underline;
+	}
+
+
+
+
+
+/* toggle state of inner content area */
+.dbx-box-closed .dbx-content {
+	display:block;
+	height:10px;
+	padding:0;
+	overflow:hidden;
+	}
+.dbx-box-closed .dbx-content * {
+	display:none;
+	}
+
+
+
+
+
+/* additional clone styles */
+.dbx-clone {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-khtml-opacity:0.8;
+	filter:alpha(opacity=80);
+	}
+
+
+
+
+
+			

@@ -1,0 +1,76 @@
+/* Forms
+*******************************************************/
+
+fieldset {
+	border: 0;
+}
+
+textarea {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 1.2em;
+}
+form ul {
+	list-style: none;
+}
+.middleColumn {
+ 	display: block;
+ 	margin: 15px 10px 10px 0;
+	padding: 4px;
+	width: 306px;
+	clear: left;
+}
+	#Sidebar .middleColumn {
+		margin: 0 0 0 8px;
+		display: inline;
+	}
+	
+	div.tab .field .middleColumn {
+		clear: none !important;
+ 		margin: 0 !important;
+		width: auto;
+	}
+
+input.text, textarea, select {
+	padding: 2px;
+	background: transparent url(../images/form-field-bg.gif) no-repeat scroll left top;
+	border: none;
+	color: #000;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#E6E6E6 rgb(226, 226, 226) rgb(226, 226, 226) rgb(230, 230, 230);
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 300px;
+}
+select {
+	width: auto;
+}
+
+input.action {
+	padding: 2px;
+	font-size: 1em;
+	font-family: Verdana, Tahoma, Sans-serif;
+}
+input:focus span, textarea:focus span {
+	border: 3px solid #000;
+}
+
+input.action:hover,
+input.action:focus {
+	cursor: pointer;
+}
+#Search {
+	width: 105px;
+}
+input#Search_Form_SearchForm_Search {
+	width: 110px;
+	padding: 3px;
+	margin-left: -4px;
+	font-size: 1.2em;
+	}
+#Sidebar input.action {
+	font-size: 1.2em;
+	float: right;
+	padding: 1px;
+	margin: -22px 10px 0 0;
+}

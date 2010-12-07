@@ -1,0 +1,79 @@
+#tvboxes
+{
+	position:	relative;
+	background:	transparent url(../images/tvs/tvs_structure.png) no-repeat 0 -13px;
+	width:		978px;
+	height:		241px;
+	margin-top:	58px;
+}
+#tvboxes .tv
+{
+	position:	absolute;
+}
+#tvboxes .tv1
+{
+	
+}
+#tvboxes .tv2
+{
+	
+}
+#tvboxes .tv3
+{
+	
+}
+#tvboxes .label
+{
+	position:	absolute;
+	z-index:	100;	
+	color:		#fff;
+	font-size:	20px;
+	text-align:	center;
+}
+#tvboxes .label.large
+{
+	background:	transparent url(../images/tvs/label_large.png) no-repeat 0 0;
+	width:		256px;
+	height:		36px;
+	line-height:33px;
+}
+#tvboxes .label.small
+{
+	background:	transparent url(../images/tvs/label_small.png) no-repeat 0 0;
+	width:		194px;
+	height:		28px;
+	line-height:27px;
+}
+#tvboxes .label.label1
+{
+	left:		65px;
+	top:		174px;
+}
+#tvboxes .label.label2
+{
+	left:		361px;
+	top:		188px;
+	color:		#15e3ec;
+}
+#tvboxes .label.label3
+{
+	left:		716px;
+	top:		174px;
+}
+#tvboxes .button
+{
+	position:	absolute;
+	z-index:	100;
+}
+#tvboxes .button.prev
+{
+	left:		8px;
+	top:		95px;
+	
+}
+#tvboxes .button.next
+{
+	left:		930px;
+	top:		95px;
+	
+}

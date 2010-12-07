@@ -1,0 +1,104 @@
+/* Product list and product page css */
+#Layout h2{
+	font-size: 1.6em; 
+	border-bottom:1px dotted #CCCCCC;
+	color:#333333;
+	font-family:"Lucida Grande",Arial,sans-serif;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:100%;
+	margin:3px 0pt 2px;
+	padding-bottom:4px;
+}
+
+	#Layout h2 a{
+		color:#3E91C4;
+		text-decoration:none;
+	}
+	#Layout a:hover {
+		text-decoration:underline;
+	}
+
+#ProductGroup {
+	background:#FFFFFF none repeat scroll 0% 50%;
+	float:left;
+	overflow:hidden;
+	padding:25px 25px 15px;
+	width:495px;
+}
+
+.product_summary #ProductList {
+	color: #666;
+	list-style:none;
+	float:left;
+	width:99%;
+}
+
+.product_summary .featureTitle,
+.product_summary .productGroupTitle {
+	border-bottom:1px solid #CCCCCC;
+	clear:both;
+	font-size:1.5em;
+	font-weight:300;
+	line-height:1.5em;
+	margin:25px 0pt 15px;
+	width:95%;
+}
+
+.product_summary li.productItem {
+	float:left;
+	width:480px;
+	overflow:hidden;
+	margin:10px 0 0 0;
+	font-size:1.1em;
+	padding:1em 5px 0 1em;
+	background:#f4f8f9;
+	border: 1px solid #c9e5f7;
+}
+#Layout .product_summary li.productItem p.quantityBox, #Layout .product_summary li.productItem p.quantityBox a {
+	margin:0;
+	color: #333;
+}
+.product_summary li.productItem .image {
+	float:left;
+	width: 110px;
+}
+.product_summary li.productItem .description {
+	float:right;
+	width: 320px;
+}
+.product_summary a, .product_summary a img {
+	color: #fff;
+	border: none;
+	text-decoration:none;
+}
+.product_summary a:hover {
+	text-decoration:underline;
+}
+
+.product_summary .productTitle {
+	font-size:1.2em;
+}
+	.product_summary .productTitle a {
+		color: #4694c4;
+	}
+.price_display{
+	font-weight:bold;
+	color:#4694c4;
+	line-height: 1.5em;
+}
+
+.productActions {
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+	.productActions li {
+		list-style: none;
+	}
+		.productActions li a {
+			color: #999;
+		}

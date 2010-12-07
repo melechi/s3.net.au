@@ -1,0 +1,13 @@
+[01-Dec-2010 09:59:02] Error at \sapphire\core\Core.php line 334: Bad class to singleton() - Page (http://localhost/s3/admin?flush=1)
+[02-Dec-2010 09:46:28] Warning at \sapphire\core\model\MySQLDatabase.php line 57: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) (http://s3.dev/)
+[02-Dec-2010 09:46:28] Warning at \sapphire\core\model\MySQLDatabase.php line 126: mysql_query(): supplied argument is not a valid MySQL-Link resource (http://s3.dev/)
+[02-Dec-2010 09:46:28] Warning at \sapphire\core\model\MySQLDatabase.php line 134: mysql_error(): supplied argument is not a valid MySQL-Link resource (http://s3.dev/)
+[02-Dec-2010 09:46:28] Error at \sapphire\core\model\MySQLDatabase.php line 536: Couldn't run query: 
+SET CHARACTER SET 'utf8' 
+
+ (http://s3.dev/)
+[02-Dec-2010 09:50:01] Warning at \sapphire\core\SSViewer.php line 379: filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:\DEVELOPMENT\www\s3\s3.dev/themes/s3/templates/Page.ss (http://s3.dev/)
+[02-Dec-2010 09:50:01] Warning at \sapphire\core\SSViewer.php line 384: file_get_contents(D:\DEVELOPMENT\www\s3\s3.dev/themes/s3/templates/Page.ss) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (http://s3.dev/)
+[02-Dec-2010 09:50:01] Warning at \sapphire\core\SSViewer.php line 379: filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:\DEVELOPMENT\www\s3\s3.dev/themes/s3/templates/Layout/Page.ss (http://s3.dev/)
+[02-Dec-2010 09:50:03] Warning at \sapphire\core\SSViewer.php line 379: filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:\DEVELOPMENT\www\s3\s3.dev/themes/s3/templates/Page.ss (http://s3.dev/)
+[02-Dec-2010 09:50:03] Warning at \sapphire\core\SSViewer.php line 379: filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for D:\DEVELOPMENT\www\s3\s3.dev/themes/s3/templates/Layout/Page.ss (http://s3.dev/)

@@ -1,0 +1,97 @@
+#Layout h2{
+	border-bottom:1px dotted #CCCCCC;
+	color:#333333;
+	font-family:"Lucida Grande",Arial,sans-serif;
+	font-size:150%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:100%;
+	margin:3px 0pt 20px;
+	padding-bottom:4px;
+}
+	#Layout h2 a{
+		color:#3E91C4;
+		text-decoration:none;
+	}
+	#Layout a:hover {
+		text-decoration:underline;
+	}
+
+#Product {
+	background:#FFFFFF none repeat scroll 0% 50%;
+	float:left;
+	overflow:hidden;
+	padding:25px 25px 15px;
+	width:495px;
+}
+
+.product_details{
+	width: 220px;
+	float: right;
+	color: #666;
+	overflow: hidden;
+}
+	.product_details .imageHolder img{
+		display:block;
+		margin: 0 auto;
+	}
+	#Layout .product_details p{
+		margin:0;
+	}
+#Layout .product_details p.price_display{
+	font-weight:bold;
+	margin: 10px 0 10px 0;
+	color:#4694c4;
+	text-align: right;
+	font-size:1.2em;
+}
+.featured,
+.quantityBox {
+	padding: 5px;
+	background: #F4F8F9;
+	color: #4694C4;
+	font-weight: bold;
+	text-align: center;
+}
+	.featured {
+		background: none;
+		border: #4694c4;
+		color: #4694c4;
+	}
+		.quantityBox a {
+			vertical-align: middle;
+			color: #1ca0f2;
+		}
+			.quantityBox a img{
+			border:none;
+		}
+		.quantityBox a:hover {
+			text-decoration: none !important;
+		}
+	.productActions {
+		margin-top: 10px;
+	}
+		.productActions li {
+			text-align: right;
+			list-style: none;
+		}
+		.quantityBox .productActions a {
+			color: #4694C4 !important;
+			line-height: 1.5em;
+			font-weight: normal;
+		}
+
+
+form#options label {
+	font-size: 10px;
+}
+
+form#options fieldset input#Quantity {
+	width:30px;
+}
+.productContent {
+	width: 300px;
+}

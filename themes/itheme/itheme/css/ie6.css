@@ -1,0 +1,38 @@
+/**
+ SilverStripe Black Candy Theme
+ http://www.silverstripe.com
+ 
+ IE6 Hacks Stylesheet.
+'text =*/
+#Layout{
+	width: 800px !important;
+}
+#Sidebar ul.sub {
+	margin-top: -15px !important;
+	padding: 0 !important;
+}
+.productContent {
+	width:250px !important;
+}
+div.entry {
+	padding-top: 0 !important;
+	margin-top: -10px !important;
+}
+div.posterContent {	
+width: 370px !important;
+}
+DIV.userInformation {
+width: 90px !important;
+}
+ul#Posts li {
+	width: 493px !important;
+}
+h3.dbx-handle{
+	width: 210px !important;
+}
+.dbx-content {
+	width: 200px !important;
+}
+#Sidebar {
+	width:210px !important;
+}

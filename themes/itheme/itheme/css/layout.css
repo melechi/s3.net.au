@@ -1,0 +1,382 @@
+/*
+ SilverStripe iTheme 
+ http://www.silverstripe.com
+ 
+ Originally created by Ndesign
+ http://www.ndesign-studio.com/resources/wp-themes/itheme/
+ */
+ 
+/************
+  * Misc Styles and defaults 
+  */
+  
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #3fabd9;
+}
+body {
+	background:#42AFDC url(../images/html-bg.gif) repeat-x scroll top center;
+	color:#333333;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:75%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:170%;
+	margin:0px;
+	padding:0px; 
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+.clear{
+	clear:both;
+}
+a img {
+	border: none !important;
+}
+/**************
+ 	Site Container Box
+*/
+#BgContainer {
+	background:transparent url(../images/main-bg.jpg) no-repeat scroll center top;
+	height: auto !important; /* for modern browsers */
+	height: 559px; /* for IE5.x and IE6 */
+	min-height: 559px; /* for modern browsers */
+}
+#Container { 
+	margin:0px auto;
+	position:relative;
+	width:770px;
+	}
+#Layout {
+	margin:0px auto;
+	position:relative;
+	width:770px;
+}
+#Content {
+	background:#FFFFFF none repeat scroll 0%;
+	float: left;
+	overflow:hidden;
+	padding:25px 25px 15px;
+	width:495px;
+}
+#Content h2 a, Content h2 a:hover {
+	color:#333333;
+	text-decoration:none;
+}
+/** Header **/
+#Header { 
+ 	height: 120px;
+	}
+ 	#Header h1 { 
+	  	color:#FFFFFF;
+		font-family:"Trebuchet MS",Arial,sans-serif;
+		font-size:30px;
+		font-size-adjust:none;
+		font-stretch:normal;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		left:25px;
+		line-height:100%;
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		top:40px;
+		}
+	#Header p {
+		color:#000000;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:12px;
+		font-size-adjust:none;
+		font-stretch:normal;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		left:30px;
+		line-height:normal;
+		position:absolute;
+		top:77px;
+	}
+
+/*** Main Nav ***/
+#Navigation {
+	background:transparent url(../images/content-top-bg.png) no-repeat scroll left top;
+	_background:transparent url(../images/content-top-bg.gif) no-repeat scroll left top;/* only IE6 sees this rule*/
+	height:26px;
+}
+#Navigation ul { 
+ 	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:100%;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0px 0px 0px 25px;
+	padding:0px;
+	}
+	#Navigation ul li { 
+	 	float:left;
+		margin:0px 1px 0px 0px;
+		padding:0px;
+		}
+  		#Navigation ul li a { 
+			color:#000000;
+			display:block;
+			padding:5px 7px 6px;
+			text-decoration:none;
+			}
+    		#Navigation ul li a:hover,
+			#Navigation ul li a.current,
+    		#Navigation ul li a.section,
+    		#Navigation ul li a.section:hover,
+    		#Navigation ul li a.current:hover { 
+			 	background:#2E91C6 url(../images/nav-item-hover.gif) repeat-x scroll 0%;
+				color:#FFFFFF;
+				text-decoration:none;
+				}    
+/** Breadcrumbs **/
+#Breadcrumbs { 
+ 	color: #939b9f;
+	text-align: left;
+	font-size: 0.9em; 
+	margin: -23px 5px 10px 0;
+	}
+	#Breadcrumbs p {
+		margin: 0;
+		color: #939b9f;
+	}
+	#Breadcrumbs a {
+		font-weight: bold;
+	}
+
+/*** Message Boxs ***/
+
+.message {
+	margin: 15px;
+	padding: 5px;
+	width: 92%;
+	color: #979908;
+}
+span.middleColumn .message {
+	margin: 4px 0 0 3px;
+}
+.required {
+	margin: 4px 0 0 3px;
+	padding: 5px;
+	width: 92%;
+	color: #DC1313;
+	font-weight: bold;
+}
+
+p#Remember label {
+	margin: -24px 0 0 20px;
+	text-align: left;
+}
+/* Sidebar 
+***********************************/
+#Sidebar{ 
+	color:#666666;
+	float:right;
+	line-height:160%;
+	width:210px;
+	margin-top: -25px;
+}
+	#Sidebar a, #Sidebar a:visited {
+		color:#000000;
+		text-decoration:none;
+	}
+	#Sidebar a:hover, #Sidebar a:focus, #Sidebar a:active {
+		text-decoration:underline;
+	}
+	#Sidebar a.current {
+		font-weight: bold;
+	}
+	#Sidebar a.section {
+		font-weight: bold;
+		color: #666;
+	}
+	#Sidebar li.section {
+		margin-bottom: 5px;
+	}
+	#Sidebar ul {
+		margin: 0;
+	}
+	#Sidebar li {
+		margin: 0;
+		list-style: none;
+	}
+	#Sidebar h3 { 
+		color:#666666;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:12px;
+		font-size-adjust:none;
+		font-stretch:normal;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:bold;
+		line-height:100%;
+		background:transparent url(../images/sidep-handle.png) no-repeat scroll top left;
+		_background:transparent url(../images/sidep-handle.gif) no-repeat scroll top left; /* only IE6 sees this rule */
+		margin:0pt;
+		padding:5px 24px 10px 10px;
+	}
+	#Sidebar a em {
+		font-style: normal;
+	}
+	ul#Menu2 {
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		margin: 0;
+	}
+    ul#Menu2 li { 
+            background:transparent url(../images/bullet-orange.gif) no-repeat scroll 0 0;
+			padding-left:18px;
+            }
+	ul#Menu2 li li, ul#Menu2 li li li{ background: none; padding-left:5px;} 
+	.sidebarBox {
+	margin-bottom: 10px;
+	}
+/* Comments
+******************************************/
+
+#CommentHolder ul {
+	list-style: none;
+	margin: 20px 0;
+}
+
+#PageComments li {
+	margin: 5px 0;
+	padding: 1px;
+	width: 88%;
+}
+#PageComments li.odd {
+	background: #F4F4F4 none repeat scroll 0%;
+	padding:5px 10px;
+}
+	#PageComments li.odd p {
+		margin: 0 0 5px 0;
+	}
+		#PageComments li.odd p.info {
+			color: #669900;
+			font-weight: bold;
+		}
+#PageComments li.even {
+	background: #fff none repeat scroll 0%;
+	padding:5px 10px;
+}
+	#PageComments li.even p {
+		margin: 0 0 5px 0;
+	}
+		#PageComments li.even p.info {
+			color: #669900;
+			font-weight: bold;
+		}
+
+
+
+
+.actionLinks li a {
+	padding-right: 3px;
+	font-size: 10px;
+}
+.actionLinks li {
+   display: inline;
+   border-right: 1px solid;
+}
+   .actionLinks li.last {
+      border-right: none;
+   }
+
+.commentrss {
+	background: transparent url(../images/feed-icon-14x14.png) no-repeat;
+	padding-left: 20px;
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+#PageCommentsPagination p {
+	text-align: center;
+	font-size: 1.2em;
+}
+#PageComments p {
+	font-size: 1em;
+}
+#PageComments p.info {
+	color: #999;
+	margin: 0px;
+	padding: 0;
+	line-height: 1em;
+	font-size: 0.9em;
+}
+
+/* Search Results 
+*****************************************/
+ul#SearchResults {
+	margin: 10px 0;
+}
+ul#SearchResults li {
+	list-style: none;
+	margin: 5px 0;
+	font-size: 1em;
+}
+
+/* Unsubscribe Newsletter
+*****************************************/
+#Unsubscribe_MailingListForm_MailingListForm{
+	min-height:100px;
+}
+
+#Unsubscribe_MailingListForm_MailingListForm p{
+		margin:0 !important;
+		padding:10px;
+}
+	#Unsubscribe_MailingListForm_MailingListForm p label{
+		display: inline;
+	}
+
+#Unsubscribe_MailingListForm_MailingListForm label{
+	margin:0;
+}
+
+
+/* Footer 
+*****************************************/
+
+#Footer { 
+	background:transparent url(../images/content-bottom-bg.png) no-repeat scroll top left;
+	_background:transparent url(../images/content-bottom-bg.gif) no-repeat scroll top left;/* only IE6 sees this rule*/
+	color:#282828;
+	font-size:87%;
+	float: left;
+	width:545px;
+	padding: 10px 0 0 10px;
+	}
+	#Footer p {
+		color:#282828;
+		margin: 0;
+	}
+	#Footer a, #Footer a:hover{ 
+		color:#282828;
+		text-decoration: none;
+	}
+	#Footer a:hover{ 
+		text-decoration: underline;
+	}  

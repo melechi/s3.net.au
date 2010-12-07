@@ -1,0 +1,2 @@
+<p><a href="http://www.ndesign-studio.com/resources/wp-themes/">Theme</a> &amp; <a href="http://www.ndesign-studio.com/stock-icons/">Icons</a> by <a href="http://www.ndesign-studio.com">N.Design Studio</a> - Adapted by <a href="http://www.creativemaze.com">Jo&atilde;o Paulo</a> to the
+<a href="http://www.silverstripe.com" title="This site runs on the SilverStripe CMS">SilverStripe Open Source CMS</a></p>

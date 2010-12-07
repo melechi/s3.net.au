@@ -1,0 +1,170 @@
+#BlogContent {
+	background:#FFFFFF none repeat scroll 0% 50%;
+	float:left;
+	overflow:hidden;
+	padding:25px 25px 15px;
+	width:495px;
+}
+#BlogContent h2 a, #BlogContent h2 a:hover {
+	color: #333;
+	text-decoration: none;
+}
+.BlogError {
+	text-align: center;
+}
+/* IE cuts the bottom of the tags off */
+* html #Sidebar p.tagcloud {
+	padding-bottom: 10px;
+}
+
+.BlogError p {
+	color: #fff;
+	display: inline;
+	background-color:	#f77;
+	padding: 7px;
+	font-weight:bold;
+}
+#PageCommentInterface_Form_PageCommentsPostCommentForm_Name, #PageCommentInterface_Form_PageCommentsPostCommentForm_Comment {
+	background:transparent url(../images/form-field-bg.gif) no-repeat scroll top left;
+	border-color:#E6E6E6 rgb(226, 226, 226) rgb(226, 226, 226) rgb(230, 230, 230);
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:110%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+}
+#BlogEntry_Form_BlogEntryForm #ContentLabel{
+	display:inline;
+}
+
+#BlogEntry_Form_BlogEntryForm .CompositeField {
+	position: relative;
+	width: 100%;
+}
+
+#BlogEntry_Form_BlogEntryForm #BBCodeHint {
+	cursor: pointer;
+	font-size:0.8em;
+	position: absolute;
+	left: 240px;
+	top: 3px;
+}
+#BlogEntry_Form_BlogEntryForm #BBTagsHolder{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 325px;
+}
+.blogSummary {
+	margin-bottom: 5px;
+}
+.title{
+	float:left;
+	margin-left:10px;
+	width:438px;
+}
+	.date{
+	background:transparent url(../images/calendar.gif) no-repeat scroll 0%;
+	color:#666666;
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:22px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	height:50px;
+	line-height:100%;
+	padding:0px 2px 0pt 0pt;
+	text-align:center;
+	width:45px;
+}
+			.date span{
+			color:#FFFFFF;
+			display:block;
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:11px;
+			font-size-adjust:none;
+			font-stretch:normal;
+			font-style:normal;
+			font-variant:normal;
+			font-weight:normal;
+			height:16px;
+			line-height:normal;
+			padding-top:5px;
+			text-align:center;
+		}
+.entry{
+	clear:both;
+	padding:10px 0px 0;
+}
+#Content label{
+	margin-top: 0px;
+}
+#Layout p.authorDate,
+#Layout p.tags {
+	font-size: 0.9em;
+	color: #777;
+	margin: 0;
+}
+#Layout p.tags a {
+	background:transparent url(../images/mini-category.gif) no-repeat scroll 0%;
+	float:left;
+	color:#999999;
+	padding-left:17px;
+	margin-right: 6px;
+}
+#Layout p.tags a:hover {
+	color: #44A1D0;
+	text-decoration: none;
+}
+#Layout p.blogVitals {
+	text-align: right;
+	margin-bottom: 10px;
+	color: #999;
+}
+#Sidebar p.tagcloud {
+	margin:0;
+}
+#Sidebar ul.archiveMonths li{
+	background:transparent url(../images/mini-archive.gif) no-repeat scroll 0%;
+	padding-left: 18px;
+}
+a.comments {
+	background: url(../images/comments.gif) no-repeat left center;
+	padding: 3px 0 3px 25px;
+}
+a.comment_count {
+	background:transparent url(../images/mini-comment.gif) no-repeat scroll 0%;
+	float:right;
+	font-size:90%;
+	padding-left:18px;
+	
+}
+a.add_comments {
+	background:transparent url(../images/mini-down-arrow.gif) no-repeat scroll left center;
+	float:right;
+	padding-left:12px;
+	font-size:90%;
+	color: #999999;
+}
+a.readmore {
+	background: url(../images/readmore.gif) no-repeat left center;
+	padding: 3px 0 3px 25px;
+}
+
+a#editpost{
+	background: url(../images/edit.gif) no-repeat left center;
+	padding: 3px 0 3px 25px;
+}
+
+a#unpublishpost{
+	background: url(../images/delete.gif) no-repeat left center;
+	padding: 3px 0 3px 25px;
+}

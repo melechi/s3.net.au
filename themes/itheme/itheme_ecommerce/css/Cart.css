@@ -1,0 +1,29 @@
+/* make the price block so it goes on a separate line */
+.cart .price {
+	display:block;
+}
+.cart .dbx-content a img{
+	border: none;
+}
+/* total of the cart */
+.cart .total,
+.cart .subtotal {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+	width: 90%;
+}
+.cart .total {
+	font-weight: bold;
+	color: #333;
+	text-align: right;
+}
+
+/* nudge the message left a bit so it looks better in black candy */
+.noItems {
+	padding-left: 7px;
+}
+
+/* buy products link to buy the items in your cart */
+.buyProducts {
+	font-weight: bold;
+}
